@@ -1,5 +1,5 @@
-# ssh-tunnel
-Simple PHP class for opening SSH tunnels
+# db-extractor-logger
+Simple PHP class for logging
 
 ## Usage
 Require with composer:
