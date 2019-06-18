@@ -3,3 +3,4 @@ app:
   volumes:
     - .:/code
   working_dir: /code
+  command: sh -c 'composer install -n && composer ci'
