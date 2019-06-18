@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Keboola\\": "src/Keboola/"
+            "Keboola\\Logger\\": "src/"
         }
     },
     "scripts": {
