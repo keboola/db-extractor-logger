@@ -1,9 +1,8 @@
 <?php
 
 
-namespace Keboola\DbExtractor;
+namespace Keboola\DbExtractor\Logger;
 
-use Keboola\DbExtractor\Logger\LineFormatter;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger as MonologLogger;
 
