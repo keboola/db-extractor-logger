@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Keboola\DbExtractor\Logger;
+namespace Keboola\DbExtractorLogger;
 
 use Keboola\Csv\CsvFile;
 

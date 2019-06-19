@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Keboola\DbExtractor\Logger;
+namespace Keboola\DbExtractorLogger;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger as MonologLogger;
