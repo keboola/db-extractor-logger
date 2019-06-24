@@ -6,7 +6,8 @@ services:
   - docker
 
 before_install:
-  - export APP_IMAGE=db-extractor-logger
+  - export APP_IMAGE=keboola-component
+  - docker -v
   - docker build -t $APP_IMAGE
   - docker run $APP_IMAGE composer ci
 
