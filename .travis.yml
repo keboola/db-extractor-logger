@@ -5,7 +5,7 @@ language: bash
 services:
   - docker
 
-install:
+before_install:
   - export APP_IMAGE=db-extractor-logger
   - docker build -t $APP_IMAGE
   - docker run $APP_IMAGE composer ci
