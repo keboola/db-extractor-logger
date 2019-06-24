@@ -3,12 +3,6 @@
     "description": "Print info from db-extractor",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ondra Jodas",
-            "email": "ondra.jodas@gmail.com"
-        }
-    ],
     "require": {
         "monolog/monolog": "^1.24",
         "keboola/csv": "^1.1"

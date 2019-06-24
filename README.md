@@ -1,4 +1,4 @@
-# db-extractor-logger
+# Database extractor logger
 Simple PHP class for logging
 
 ## Usage
@@ -12,12 +12,15 @@ Require with composer:
 
 ## Development
 
-Developed with TTD. Requires Git, Composer, Docker and Docker Compose.
-
-Clone repository, install dependencies and run tests:
+Clone this repository and init the workspace with following command:
 ```
     git clone git@github.com:keboola/db-extractor-logger.git
     cd db-extractor-logger
-    composer install
-    docker-compose run app
+    docker-compose build
+    docker-compose run --rm dev composer install --no-scripts
+```
+
+Run the test suite using this command:
+```
+    docker-compose run --rm dev composer tests
 ```
