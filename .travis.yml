@@ -12,4 +12,4 @@ before_install:
   - docker run $APP_IMAGE composer ci
 
 script:
-  - docker-compose run --rm app
+  - docker-compose run --rm dev
