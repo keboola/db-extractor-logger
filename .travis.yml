@@ -6,7 +6,7 @@ services:
   - docker
 
 install:
-  - export APP_IMAGE keboola-component-db-ex-logger
+  - export APP_IMAGE db-extractor-logger
   - docker build -t $APP_IMAGE
   - docker run $APP_IMAGE composer ci
 
