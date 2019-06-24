@@ -8,7 +8,7 @@ services:
 before_install:
   - export APP_IMAGE=keboola-component
   - docker -v
-  - docker build -t $APP_IMAGE
+  - docker build -t $APP_IMAGE .
   - docker run $APP_IMAGE composer ci
 
 script:
