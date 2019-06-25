@@ -8,9 +8,9 @@
         "keboola/csv": "^1.1"
     },
     "require-dev": {
-        "keboola/coding-standard": "^8.0",
+        "keboola/coding-standard": "^2.0",
         "phpunit/phpunit": "^8.2",
-        "phpstan/phpstan": "^0.11.8"
+        "phpstan/phpstan": "^0.8"
     },
     "autoload": {
         "psr-4": {
