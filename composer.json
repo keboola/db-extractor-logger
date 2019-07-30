@@ -28,9 +28,8 @@
             "@tests"
         ],
         "ci": [
-            "@composer install",
             "@composer validate --no-check-all --strict",
-            "@tests"
+            "@build"
         ]
     },
     "config": {

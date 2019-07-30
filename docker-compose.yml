@@ -1,5 +1,9 @@
 version: '2'
 services:
+  app:
+    build: .
+    working_dir: /code
+    command: sh -c 'composer install -n && composer ci'
   dev:
     build: .
     volumes:
