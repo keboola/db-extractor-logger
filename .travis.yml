@@ -6,6 +6,6 @@ services:
   - docker
 
 script:
-  - docker -v
-  - docker build
+  - docker-compose -v
+  - docker-compose build
   - docker-compose run --rm app
